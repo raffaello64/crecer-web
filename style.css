@@ -1,0 +1,98 @@
+/* ===============================
+   Importar fuentes de Google Fonts
+   =============================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&family=Montserrat:wght@600&display=swap');
+
+/* ===============================
+   Estilos generales
+   =============================== */
+body {
+  font-family: 'Roboto', sans-serif; /* Fuente principal para textos */
+  margin: 0;
+  padding: 0;
+  background: #eaf4f1; /* Fondo suave */
+  color: #333333;      /* Color de texto principal */
+}
+
+/* ===============================
+   Header (título y barra superior)
+   =============================== */
+header {
+  background: #1b5e20; /* Verde oscuro */
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive; /* Fuente llamativa para el título */
+  margin: 0 0 0.5rem 0;
+  font-size: 3rem;    /* Título grande y visible */
+  font-weight: bold;
+}
+
+/* ===============================
+   Menú horizontal
+   =============================== */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem; /* Espacio entre secciones */
+}
+
+nav ul li {
+  cursor: pointer;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+  font-size: 1.1rem; /* Letras del menú un poco más grandes */
+}
+
+nav ul li:hover {
+  background: #66bb6a; /* Verde más claro al pasar mouse */
+  color: #000000;      /* Letras negras al resaltar */
+}
+
+/* ===============================
+   Contenido principal (main)
+   =============================== */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #ffffff; /* Fondo blanco */
+  border-radius: 8px;  /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+main h2 {
+  font-family: 'Montserrat', sans-serif; /* Fuente distinta para secciones */
+  color: #1b5e20;                        /* Verde oscuro */
+  margin-bottom: 1rem;
+  font-size: 2rem;                        /* Títulos más grandes */
+  font-weight: 600;
+}
+
+main p {
+  line-height: 1.8;     /* Más espacio entre líneas */
+  font-size: 1.2rem;    /* Texto más grande y legible */
+  color: #333333;
+}
+
+/* ===============================
+   Enlaces
+   =============================== */
+a {
+  color: #1b5e20;       /* Verde oscuro */
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -15,22 +15,22 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background: #eaf4f1;
-  color: #333333;
+  background: #f4f6f8;
+  color: #263238;
 }
 
 /* ===============================
    Header (título y barra superior)
    =============================== */
 header {
-  background: #1b5e20;
-  color: #ffffff;
+  background: #184a45;
+  color: #f4f6f8;
   padding: 2rem;
   text-align: center;
 }
 
 header h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif;
   margin: 0 0 0.5rem 0;
   font-size: 3rem;
   font-weight: bold;
@@ -51,16 +51,17 @@ nav ul {
 nav ul li {
   cursor: pointer;
   font-weight: 700;
-  color: #ffffff;
+  color: #f4f6f8;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   transition: background 0.3s, color 0.3s;
   font-size: 1.1rem;
+  background: transparent;
 }
 
 nav ul li:hover {
-  background: #66bb6a;
-  color: #000000;
+  background: #e0e7ef;
+  color: #184a45;
 }
 
 /* ===============================
@@ -70,14 +71,14 @@ main {
   padding: 2rem;
   max-width: 900px;
   margin: 2rem auto;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: #eaf4fb; /* Azul muy suave y profesional */
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(24,74,69,0.08);
 }
 
 main h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #1b5e20;
+  color: #184a45;
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 600;
@@ -86,20 +87,21 @@ main h2 {
 main p {
   line-height: 1.8;
   font-size: 1.2rem;
-  color: #333333;
+  color: #263238;
 }
 
 /* ===============================
    Enlaces
    =============================== */
 a {
-  color: #1b5e20;
+  color: #00796b;
   text-decoration: none;
   font-weight: 700;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #184a45;
 }
 
 /* ===============================
